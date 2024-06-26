@@ -1,0 +1,15 @@
+import pandas as pd
+import pickle 
+
+input_data_df = pd.DataFrame(_arg1)
+df = input_data_df
+
+df.columns = [c.replace("_", " ") for c in df.columns]
+df = df[['Age', 'Income', 'Loan Amount', 'Loan Term', 'Credit History Length','Number of Credit Cards', 'Number of Loans', 'Previous Defaults']]
+
+with open('C:\\Users\\yourpath\\credit_model.pkl', 'rb') as model_file:
+    model = pickle.load(model_file)
+
+df['Predict'] = model.predict(df)
+
+return df.to_dict(orient='list')
