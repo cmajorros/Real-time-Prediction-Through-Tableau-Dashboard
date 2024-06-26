@@ -12,8 +12,6 @@ This project involves building a loan prediction model using Python in Google Co
 - [Tableau Dashboard](#tableau-dashboard)
 - [TabPy Integration](#tabpy-integration)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 
@@ -108,11 +106,3 @@ This project aims to predict loan eligibility based on various features using a 
     - Ensure Tableau is connected to TabPy.
     - Use calculated fields to call the API and get predictions.
 3. **Interact with the dashboard** to get real-time loan predictions.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any changes or improvements.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
