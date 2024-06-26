@@ -26,8 +26,7 @@ This project aims to predict loan eligibility based on various features using a 
 - Google Colab
 - Tableau Desktop
 - TabPy (Tableau Python Server)
-- Required Python libraries: pandas, numpy, scikit-learn, joblib, Flask (for API)
-
+- Required Python libraries: pandas, numpy, scikit-learn, joblib, Flask (for API), pickle
 ## Setup and Installation
 
 ### Python Environment
